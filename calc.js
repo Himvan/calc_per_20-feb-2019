@@ -39,6 +39,7 @@ function Calculate(typ="singh",amount=0)
             "Deducted Amount":ded_amt,
             "Net Amount":net_amt
             };
+            break;
         }
         else{
             obj={"type":typ,
@@ -55,5 +56,5 @@ function Calculate(typ="singh",amount=0)
     
 }
 
-var arr2=Calculate("him",100);
+var arr2=Calculate("him",110);
 console.log(arr2);
